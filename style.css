@@ -1,0 +1,104 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Poppins:ital,wght@0,200;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Wallpoet&display=swap');
+
+
+body {
+background: linear-gradient(rgb(201, 211, 213),black);
+color: black;
+text-align: center; 
+font-size: 70px;
+font-weight: 600;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.heading {
+margin-bottom: 20px;
+font-size: 3rem;
+color: black;
+font-family: 'Wallpoet', cursive;
+}
+
+.header {
+display: flex;
+align-items: center;
+}
+
+.timer, .errors, .accuracy,
+.cpm, .wpm {
+background: linear-gradient(rgb(11, 115, 34),cyan);
+height: 60px;
+width: 70px;
+margin: 8px;
+padding: 12px;
+border-radius: 20%;
+box-shadow: black 5px 8px 5px;
+}
+
+
+.cpm, .wpm {
+display: none;
+}
+
+.header_text {
+text-transform: uppercase;
+font-size: 0.6rem;
+font-weight: 600;
+font-family: 'Poppins', sans-serif;
+}
+
+.curr_time, .curr_errors,
+.curr_accuracy, .curr_cpm,
+.curr_wpm {
+font-size: 2.75rem;
+}
+
+.quote {
+background:linear-gradient(rgb(11, 115, 34),cyan);
+font-size: 1.5rem;
+margin: 10px;
+padding: 25px;
+box-shadow: black 5px 8px 5px;
+font-family: 'Alkatra', cursive;
+}
+.quote:hover {
+    background-color: transparent;
+}
+
+.input_area {
+background-color: #f5f5c6;
+height: 80px;
+width: 40%;
+font-size: 1.5rem;
+font-weight: 600;
+margin: 15px;
+padding: 20px;
+border: 0px;
+box-shadow: black 5px 8px 5px;
+font-family: 'Alkatra', cursive;
+}
+
+.restart_btn {
+display: none;
+background-color: #326765;
+font-size: 1.5rem;
+padding: 10px;
+border: 0px;
+box-shadow: black 5px 8px 5px;
+font-family: 'Wallpoet', cursive;
+
+}
+
+.incorrect_char {
+color: red;
+text-decoration: underline;
+}
+
+.correct_char {
+color: darkgreen;
+}
